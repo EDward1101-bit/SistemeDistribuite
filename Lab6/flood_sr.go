@@ -179,9 +179,9 @@ func main() {
 		return result[i].ID < result[j].ID
 	})
 
-	// fmt.Println("Diametru:", diam)
-	// fmt.Println("Iteratia:", t)
-	
+	fmt.Println("Diametru:", diam)
+	fmt.Println("Iteratia:", t)
+
 	for i, info := range result {
 		if i > 0 {
 			fmt.Print(" ")
